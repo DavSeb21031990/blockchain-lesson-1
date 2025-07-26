@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "sendMessage",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -44,6 +57,19 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -102,7 +128,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HolaMundo.sol": "HolaMundo"
+			"HolaMundoV2.sol": "HolaMundo"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -116,12 +142,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"HolaMundo.sol": {
-			"keccak256": "0x0f768fd0490225727f5080c091d676f3f3eb5224dd0f12cabe5379a178f3136b",
+		"HolaMundoV2.sol": {
+			"keccak256": "0x2fd488f5dc8b1f9f2cd6b576bf72a0bd47614da349827ef3869cdc0c90c52afe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9bbd6b884cc6be1a391cdff405db1694a722ce064660a95305dbfa08da1382a",
-				"dweb:/ipfs/QmYmbRC8Js1b8buF4zipTVPwBb3j31DQ5GpkuHhVK91ZUd"
+				"bzz-raw://8f1dca523b300ad8e45a148aa3ff5456e117bf38b0cfca1309fe00dedaacfd4c",
+				"dweb:/ipfs/QmQZf3NaFTMCJ4XvYsfRbJzPvXQEU6yg1SzW7EXHMsowcj"
 			]
 		}
 	},
